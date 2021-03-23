@@ -28,11 +28,12 @@
       <AppBox width="medium" image="http://unsplash.it/400/600">
         Musciis modis reictota pra praeper spelia eicieniet ut idescipsam as
         nistruptat. Ciis nonsenimpor audit landem dolorernat id quos exersperae
-        ne lantiis ea experchilla doluptatae. Atem fugit harchil enditas molupta
-        quibus aut reste accaect emquodit acerist voluptin cupietur aut eatiis
-        magnatem re ventias di ventias periber orempor ererfero omnihic temquid
-        modis aciditat occum ra voloreptas veruptae laccuptiis eos ent a quae
-        niatiae nempos explictem di to blanda dolorectur?
+        ne lantiis ea experchilla doluptatae. <a href="/">Ein Link</a> Atem
+        fugit harchil enditas molupta quibus aut reste accaect emquodit acerist
+        voluptin cupietur aut eatiis magnatem re ventias di ventias periber
+        orempor ererfero omnihic temquid modis aciditat occum ra voloreptas
+        veruptae laccuptiis eos ent a quae niatiae nempos explictem di to blanda
+        dolorectur?
       </AppBox>
       <AppBox width="medium" align="bottom" image="http://unsplash.it/600/400">
         Boxen können auch unten ausgerichtet sein. Bedenkt aber, dass die

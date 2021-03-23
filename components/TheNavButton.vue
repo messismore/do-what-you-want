@@ -10,7 +10,7 @@ export default {}
 
 <style lang="scss">
 .TheNavButton {
-  color: black;
+  color: var(--colour-text-body);
   font-family: var(--fontDisplay);
   font-weight: bold;
   margin: var(--space-2xs);
@@ -21,10 +21,6 @@ export default {}
 
   a {
     text-decoration: none;
-
-    &:visited {
-      color: black;
-    }
   }
 }
 </style>

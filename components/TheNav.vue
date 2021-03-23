@@ -1,12 +1,14 @@
 <template>
-  <ul class="TheNav">
-    <li v-for="(value, key) in links" :key="key.title">
-      <NuxtLink :to="key">
-        <div>{{ value.title }}</div>
-        <div>{{ value.author }}</div>
-      </NuxtLink>
-    </li>
-  </ul>
+  <nav class="TheNav">
+    <ul>
+      <li v-for="(value, key) in links" :key="key.title">
+        <NuxtLink :to="key">
+          <div class="title">{{ value.title }}</div>
+          <div class="author">{{ value.author }}</div>
+        </NuxtLink>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -36,10 +38,26 @@ export default {
 </script>
 
 <style lang="scss">
-.TheNav {
-  min-height: 100vh;
-
-  text-transform: uppercase;
+.TheNav ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   list-style: none;
+  min-height: 100vh;
+  padding: var(--space-l);
+  text-align: center;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+  }
+
+  li + li {
+    margin-top: var(--space-m);
+  }
+
+  .author {
+    font-style: italic;
+  }
 }
 </style>

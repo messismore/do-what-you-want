@@ -4,6 +4,7 @@
 @import url('~assets/scss/colours.scss');
 
 :root {
+  color: var(--colour-text-body);
   font-family: var(--fontBody);
   font-size: var(--step-0);
 }
@@ -20,6 +21,16 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+a {
+  color: var(--colour-text-body);
+  font-family: var(--fontDisplay);
+  font-weight: bold;
+
+  &:visited {
+    color: var(--colour-text-body);
+  }
 }
 
 h1,

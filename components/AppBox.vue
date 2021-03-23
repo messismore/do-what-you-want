@@ -52,9 +52,13 @@ export default {
   --align-self: flex-start;
   --width: auto;
   align-self: var(--align-self);
-  font-size: var(--step--2);
+  font-size: var(--step--1);
   max-width: min(calc(1.5 * var(--width)), 100vw);
   width: var(--width);
+
+  a {
+    font-size: var(--step--2);
+  }
 
   img {
     width: 100%;

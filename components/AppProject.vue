@@ -1,15 +1,19 @@
 <template>
   <div class="AppProject">
     <TheNavButton />
-    <header>
-      <h1>{{ name }}</h1>
-      <h2>{{ author }}</h2>
-      <slot name="header">Header Content</slot>
-    </header>
     <main>
-      <slot name="main">Main Content</slot>
+      <header>
+        <h1>{{ name }}</h1>
+        <h2>{{ author }}</h2>
+        <slot name="header">Header Content</slot>
+      </header>
+      <article>
+        <slot name="main">Main Content</slot>
+      </article>
     </main>
-    <TheNav />
+    <aside>
+      <TheNav />
+    </aside>
   </div>
 </template>
 
@@ -25,7 +29,7 @@ export default {
 <style lang="scss">
 .AppProject {
   header,
-  main {
+  article {
     display: flex;
     min-height: 90vh;
     padding: var(--space-s-m);
@@ -57,7 +61,7 @@ export default {
     }
   }
 
-  main {
+  article {
     background: var(--colour-background);
     flex-flow: row wrap;
     padding-right: calc(-1 * var(--space-s));
