@@ -10,9 +10,21 @@ export default {}
 
 <style lang="scss">
 .TheNavButton {
+  color: black;
   font-family: var(--fontDisplay);
+  font-weight: bold;
+  margin: var(--space-2xs);
   position: fixed;
-  writing-mode: sideways-lr;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
   z-index: 0;
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: black;
+    }
+  }
 }
 </style>
