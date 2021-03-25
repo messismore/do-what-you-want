@@ -1,6 +1,6 @@
 <template>
   <div class="AppBox" :style="styles">
-    <img v-if="image" :src="image" />
+    <nuxt-picture v-if="image" :src="image" />
     <div>{{ index }}</div>
     <slot name="default"></slot>
   </div>
