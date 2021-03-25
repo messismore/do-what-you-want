@@ -60,7 +60,10 @@ export default {
     font-size: var(--step--2);
   }
 
-  img {
+  img,
+  picture {
+    background-color: white;
+    vertical-align: middle;
     width: 100%;
   }
 }
