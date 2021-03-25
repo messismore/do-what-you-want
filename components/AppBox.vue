@@ -36,7 +36,7 @@ export default {
           this.width === 'small'
             ? 'var(--space-3xl)'
             : this.width === 'medium'
-            ? 'var(--space-4xl-5xl'
+            ? 'var(--space-4xl-5xl)'
             : 'var(--space-6xl-7xl)',
       }
     },
