@@ -1,6 +1,10 @@
 <template>
   <div class="AppBox" :style="styles">
-    <nuxt-picture v-if="image" :src="image" />
+    <nuxt-picture v-if="image" :src="image" v-bind="$attrs" />
+    <video v-if="video" v-bind="$attrs">
+      <source :src="video" />
+      Sorry, your browser doesn't appear to support embedded videos.
+    </video>
     <div>{{ index }}</div>
     <slot name="default"></slot>
   </div>
@@ -8,6 +12,7 @@
 
 <script>
 export default {
+  inheritAttrs: false,
   props: {
     width: {
       validator: (value) => ['small', 'medium', 'large'].includes(value),
@@ -18,6 +23,11 @@ export default {
       default: 'top',
     },
     image: {
+      type: String,
+      required: false,
+      default: null,
+    },
+    video: {
       type: String,
       required: false,
       default: null,
@@ -61,7 +71,8 @@ export default {
   }
 
   img,
-  picture {
+  picture,
+  video {
     background-color: white;
     vertical-align: middle;
     width: 100%;
