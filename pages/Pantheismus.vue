@@ -73,9 +73,7 @@
           von Stille umgeben sind.
         </p>
       </AppBox>
-      <AppBox
-        image="pantheismus/Ansicht-mit-Turm-grüne-Variante-ausgefahren.png"
-      >
+      <AppBox image="pantheismus/Ansicht-mit-Turm-ausgefahren.png">
         <p>
           Spezifisches Beispiel, ortsgebunden an die Genezarethkirche in
           Neukölln: Die Kirche ist besonders geeignet und gesprächsoffen für das
