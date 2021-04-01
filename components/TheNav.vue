@@ -2,7 +2,7 @@
   <nav class="TheNav">
     <ul>
       <li v-for="(value, key) in links" :key="key.title">
-        <NuxtLink :to="key">
+        <NuxtLink :to="'/' + key">
           <div class="title">{{ value.title }}</div>
           <div class="author">{{ value.author }}</div>
         </NuxtLink>
@@ -19,8 +19,11 @@ export default {
         why: { title: 'Why and How to Do What You Want' },
         how: { title: 'Working in Miro and Webex' },
         cash: { title: 'Workshop Cashflow' },
+        pantheismus: {
+          title: 'Pantheismus in der Stadt',
+          author: 'Lotta Arndt',
+        },
         cycles: { title: 'Cycles', author: 'Felix Deiters' },
-        project1: { title: 'Wird noch schöner', author: 'Keine Sorge' },
         project2: { title: 'project', author: 'author' },
         project3: { title: 'project', author: 'author' },
         project4: { title: 'project', author: 'author' },
