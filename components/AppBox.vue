@@ -1,5 +1,6 @@
 <template>
   <div class="AppBox" :style="styles">
+    <a v-if="anchor" :name="anchor"></a>
     <nuxt-picture v-if="image" :src="image" v-bind="$attrs" />
     <video v-if="video" v-bind="$attrs">
       <source :src="video" />
@@ -28,6 +29,11 @@ export default {
       default: null,
     },
     video: {
+      type: String,
+      required: false,
+      default: null,
+    },
+    anchor: {
       type: String,
       required: false,
       default: null,
@@ -66,7 +72,10 @@ export default {
   max-width: min(calc(1.5 * var(--width)), 100vw);
   width: var(--width);
 
-  a {
+  a,
+  em,
+  sup {
+    hyphens: none;
     font-size: var(--step--2);
   }
 
@@ -76,6 +85,26 @@ export default {
     background-color: white;
     vertical-align: middle;
     width: 100%;
+  }
+
+  p {
+    hyphens: auto;
+    text-indent: var(--space-m);
+  }
+  p:first-of-type,
+  ol + p,
+  ul + p {
+    text-indent: 0;
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+  .footnotes {
+    padding-left: 2ch;
   }
 }
 </style>

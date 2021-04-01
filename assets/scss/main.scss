@@ -2,6 +2,7 @@
 @import url('~assets/scss/scale-type.scss');
 @import url('~assets/scss/scale-space.scss');
 @import url('~assets/scss/colours.scss');
+@import url('~assets/scss/utilities.scss');
 
 :root {
   color: var(--colour-text-body);
@@ -23,9 +24,11 @@ html {
   margin: 0;
 }
 
-a {
+a,
+em {
   color: var(--colour-text-body);
   font-family: var(--fontDisplay);
+  font-style: normal;
   font-weight: bold;
 
   &:visited {

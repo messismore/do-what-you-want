@@ -56,8 +56,15 @@ export default {
       margin-top: var(--space-s);
     }
 
+    em {
+      font-size: var(--step--1);
+    }
+
     p:nth-of-type(2) {
       text-indent: var(--space-l);
+    }
+    p:nth-of-type(3) {
+      text-indent: var(--space-2xl);
     }
   }
 
@@ -71,7 +78,7 @@ export default {
     & > * {
       flex-grow: 1;
       margin-right: var(--space-s);
-      margin-bottom: var(--space-2xs);
+      margin-bottom: var(--space-s);
     }
   }
 }
