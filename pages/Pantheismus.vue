@@ -24,7 +24,7 @@
       </div>
     </template>
     <template #main>
-      <AppBox>
+      <AppBox image="skizze-knospen-cad.svg">
         <p>
           Ich habe mich nach einer ganzen Weile dagegen entschieden ein Kloster
           zu entwerfen und statt- dessen dafür, mir etwas auszudenken, dass an
@@ -52,7 +52,7 @@
           mitten in der Stadt befindet.
         </p>
       </AppBox>
-      <AppBox image="pantheismus/Genezareth-Kirche-1.jpg">
+      <AppBox width="small" image="pantheismus/Genezareth-Kirche-1.jpg">
         <p>
           Erst besteigt man den Turm der Kirche. Das ist im Grunde bereits ein
           Abenteuer für sich. Wenn man dann auf dem Dach angekommen ist, hat man
@@ -61,10 +61,10 @@
           meinen, man brauche die Knospe also nicht notwendigerweise.
         </p>
       </AppBox>
-      <AppBox image="pantheismus/Genezareth-Kirche-2.jpg">
+      <AppBox width="small" image="pantheismus/Genezareth-Kirche-2.jpg">
         <p>Hier fehlt noch ein Text</p>
       </AppBox>
-      <AppBox image="pantheismus/Genezareth-Kirche-3.jpg">
+      <AppBox width="small" image="pantheismus/Genezareth-Kirche-3.jpg">
         <p>
           Sie entfaltet ihre gesamte Wirkung in der Tat am direktesten, wenn man
           von einem Ort ohne atemberaubende Aussicht einsteigt. Nun befinden wir
@@ -84,7 +84,7 @@
           Tempelhof rückgebaut worden.
         </p>
       </AppBox>
-      <AppBox width="large">
+      <AppBox width="large" image="pantheismus/Tribüne.jpg">
         <p>
           Die Kegelförmige Tribüne eignet sich zum hinsetzen, und auch für
           geführte Meditationseinheiten/Andachten, gemeinsames Singen,
@@ -97,8 +97,8 @@
           von allem Lauten und Wuseligen frei machen.
         </p></AppBox
       >
-      <AppBox image="pantheismus/Knospe.png"></AppBox>
-      <AppBox
+      <AppBox image="pantheismus/Knospe.png">Hier fehlt noch ein Text</AppBox>
+      <AppBox image="pantheismus/Vogelperspektive.png"
         ><p>
           Man fährt wie mit einem Tretboot in den Himmel und wenn man
           entscheidet, dass man hoch genug ist, kann man seinen Sitz von einer
@@ -118,7 +118,7 @@
         </p>
       </AppBox>
 
-      <AppBox image="pantheismus/Sessel.png"
+      <AppBox width="small" image="pantheismus/Sessel.png"
         ><p>
           So soll gewährleistet werden, dass man sich möglichst unbeobachtet im
           Innenraum fühlt. Denn das Äußere der Knospe kann man schließlich von
@@ -126,14 +126,15 @@
           immer wieder, wenn auch langsam, bewegt.
         </p>
       </AppBox>
-      <AppBox
+      <AppBox width="large" image="pantheismus/Schnitt.png"
         >Bedienungsanleitung:
         <ol>
           <li>Anmeldung online oder persönlich vor Ort</li>
           <li>
             Videoeinweisung in Funktionsweise der Knospe und Vermittlung von
-            Verhaltenshinweisen/ Regeln #pünktliches Erscheinen
+            Verhaltenshinweisen/ Regeln
           </li>
+          <li>pünktliches Erscheinen</li>
           <li>maximal eine Stunde Zeit in der Knospe</li>
           <li>
             Weg nach oben bzw. unten (bei max. 25m Höhenunterschied): ca. 5 -15
