@@ -14,6 +14,7 @@
     <aside>
       <TheNav />
     </aside>
+    <TheFooter />
   </div>
 </template>
 
@@ -38,7 +39,7 @@ export default {
   h1,
   h2 {
     text-align: center;
-    font-size: var(--step-1);
+    font-size: var(--step-2);
   }
 
   h2 {
@@ -50,6 +51,7 @@ export default {
     justify-content: space-around;
     margin-left: var(--space-m-l);
     position: relative;
+    font-size: var(--step-0);
     z-index: -1;
 
     & > * + * {
@@ -60,16 +62,13 @@ export default {
       font-size: var(--step--1);
     }
 
-    p:nth-of-type(2) {
+    p:not(:first-of-type) {
       text-indent: var(--space-l);
-    }
-    p:nth-of-type(3) {
-      text-indent: var(--space-2xl);
     }
   }
 
   article {
-    background: var(--colour-background);
+    background: var(--colour-background-gray);
     flex-flow: row wrap;
     padding-right: calc(-1 * var(--space-s));
     position: relative;

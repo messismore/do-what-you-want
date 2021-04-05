@@ -2,12 +2,18 @@
 @import url('~assets/scss/scale-type.scss');
 @import url('~assets/scss/scale-space.scss');
 @import url('~assets/scss/colours.scss');
+@import url('~assets/scss/animations.scss');
 @import url('~assets/scss/utilities.scss');
 
 :root {
   color: var(--colour-text-body);
   font-family: var(--fontBody);
   font-size: var(--step-0);
+}
+
+::selection {
+  background: var(--colour-text-body);
+  color: var(--colour-background);
 }
 
 html {
@@ -33,6 +39,11 @@ em {
 
   &:visited {
     color: var(--colour-text-body);
+  }
+
+  &:focus:not(:hover) {
+    background-color: var(--colour-text-body);
+    color: var(--colour-background);
   }
 }
 

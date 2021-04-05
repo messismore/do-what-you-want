@@ -1,8 +1,11 @@
 <template>
-  <div>
+  <div class="layout-default">
     <Nuxt />
-    <NuxtLink to="Imprint">Imprint</NuxtLink>
   </div>
 </template>
 
-<style></style>
+<style lang="scss">
+.layout-default {
+  max-width: 100%;
+}
+</style>
