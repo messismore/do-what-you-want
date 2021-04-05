@@ -87,7 +87,7 @@
           Stadtbewegung von unten eine wichtige Rolle.
         </p>
         <AppImage image="cashflow/dagmar-pelger-daniel-behrens.jpg">
-          Screenshot während der Gespräche mit Dagmar Pelger und Daniel Behrens
+          Gespräche mit Dagmar Pelger und Daniel Behrens
         </AppImage>
         <p>
           Die Gespräche mit Daniel Behrens beschäftigten sich mit dem

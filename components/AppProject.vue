@@ -14,6 +14,7 @@
     <aside>
       <TheNav />
     </aside>
+    <TheFooter />
   </div>
 </template>
 
@@ -61,11 +62,8 @@ export default {
       font-size: var(--step--1);
     }
 
-    p:nth-of-type(2) {
+    p:not(:first-of-type) {
       text-indent: var(--space-l);
-    }
-    p:nth-of-type(3) {
-      text-indent: var(--space-2xl);
     }
   }
 

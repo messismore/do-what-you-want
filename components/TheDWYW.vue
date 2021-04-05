@@ -11,7 +11,10 @@
       </p>
       <p>
         <em>Do What You Want</em> is a recurring studio hosted by the
-        <em>Chair for Design and Building Planning</em>.
+        <a
+          href="https://www.udk-berlin.de/studium/architektur/fachgebiete/gebaeudeplanung-und-entwerfen/"
+          >Chair for Design and Building Planning</a
+        >.
       </p>
     </div>
   </header>
@@ -30,6 +33,11 @@ export default {}
   min-height: 100vh;
   padding: var(--space-s);
 
+  a,
+  em {
+    font-size: var(--step--1);
+  }
+
   h1 {
     font-size: var(--step-6);
     line-height: var(--step-6);
@@ -43,10 +51,6 @@ export default {}
 
   p {
     font-size: var(--step-0);
-  }
-
-  em {
-    font-size: var(--step--1);
   }
 
   .do {

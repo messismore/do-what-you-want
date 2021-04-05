@@ -44,7 +44,10 @@ export default {
           title: 'Von dem Häusern und dem Tagebau',
           author: 'Leander Nowack',
         },
-        baustelle: { title: 'Baustellenpraxis', author: 'Philine Rzadtki' },
+        baustelle: {
+          title: 'Baustellen' + '\u{200b}' + 'praxis', // eslint-disable-line
+          author: 'Philine Rzadtki',
+        },
       },
     }
   },
@@ -55,8 +58,9 @@ export default {
 .TheNav ul {
   display: flex;
   flex-flow: column nowrap;
-  font-size: var(--step-1);
+  font-size: var(--step-2);
   font-weight: bolder;
+  hyphens: manual;
   justify-content: space-around;
   list-style: none;
   min-height: 100vh;

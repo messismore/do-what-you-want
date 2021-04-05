@@ -13,6 +13,7 @@
     <aside>
       <TheNav />
     </aside>
+    <TheFooter />
   </div>
 </template>
 
@@ -33,7 +34,7 @@ export default {
     font-size: var(--step-0);
 
     & > * + *,
-    figure,
+    figure:not(:first-child),
     figure + * {
       margin-top: var(--space-l);
     }
@@ -61,43 +62,6 @@ export default {
       font-size: var(--step-0);
       margin-left: var(--space-m-l);
       max-width: var(--space-7xl);
-    }
-
-    section:nth-of-type(3n-1) {
-      // background-color: lime;
-
-      p:first-child,
-      h2 + p {
-        text-indent: 25%;
-      }
-    }
-
-    section:nth-of-type(3n) {
-      // background-color: yellow;
-
-      p:first-child,
-      h2 + p {
-        text-indent: 50%;
-      }
-    }
-
-    section:nth-of-type(3n-2) {
-      // background-color: blue;
-
-      p:first-child,
-      h2 + p {
-        text-indent: 75%;
-      }
-    }
-
-    section:first-of-type {
-      // background: mediumslateblue;
-
-      p:first-child,
-      h3:first-child,
-      h2 + p {
-        text-indent: unset;
-      }
     }
   }
 
