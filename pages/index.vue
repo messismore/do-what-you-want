@@ -1,7 +1,10 @@
 <template>
-  <div>
+  <div class="index">
     <TheDWYW />
-    <TheNav />
+    <main>
+      <TheNav />
+    </main>
+    <TheFooter />
   </div>
 </template>
 

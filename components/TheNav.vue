@@ -16,24 +16,38 @@ export default {
   data() {
     return {
       links: {
-        why: { title: 'Why and How to Do What You Want' },
-        how: { title: 'Working in Miro and Webex' },
-        cash: { title: 'Workshop Cashflow' },
+        how: { title: 'Studio' },
+        cashflow: { title: 'Cashflow Workshop' },
         pantheismus: {
           title: 'Pantheismus in der Stadt',
           author: 'Lotta Arndt',
         },
+        terrapolis: {
+          title: 'Terrapolis',
+          author: 'Mascha Arnold und Jakob Köchert',
+        },
+        ringbahn: {
+          title: 'Walking (the Ringbahn) as an Aesthetic Practice',
+          author: 'Chloé Borreguero',
+        },
         cycles: { title: 'Cycles', author: 'Felix Deiters' },
-        project2: { title: 'project', author: 'author' },
-        project3: { title: 'project', author: 'author' },
-        project4: { title: 'project', author: 'author' },
-        project5: { title: 'project', author: 'author' },
-        project6: { title: 'project', author: 'author' },
-        project7: { title: 'project', author: 'author' },
-        project8: { title: 'project', author: 'author' },
-        project9: { title: 'project', author: 'author' },
-        project10: { title: 'project', author: 'author' },
-        project11: { title: 'project', author: 'author' },
+        blumenthal: { title: 'Blumenthal', author: 'Ricarda Brunner' },
+        atmosphären: {
+          title: 'Zur Zerlegung von Atmosphären',
+          author: 'Yvan Leroy',
+        },
+        keller: {
+          title: 'Gesellschaft der Nebenräume',
+          author: 'Tobias Michnik',
+        },
+        recycling: {
+          title: 'Von dem Häusern und dem Tagebau',
+          author: 'Leander Nowack',
+        },
+        baustelle: {
+          title: 'Baustellen' + '\u{200b}' + 'praxis', // eslint-disable-line
+          author: 'Philine Rzadtki',
+        },
       },
     }
   },
@@ -44,23 +58,42 @@ export default {
 .TheNav ul {
   display: flex;
   flex-flow: column nowrap;
+  font-size: var(--step-2);
+  font-weight: bolder;
+  hyphens: manual;
   justify-content: space-around;
   list-style: none;
   min-height: 100vh;
-  padding: var(--space-l);
+  padding: var(--space-3xl) var(--space-l);
   text-align: center;
   text-transform: uppercase;
 
   a {
+    display: inline-block;
     text-decoration: none;
+
+    *.title {
+      transform: skewX(0);
+      transition: 0.05s;
+    }
+    *.author {
+      transform: skewX(-15deg);
+      transition: 0.05s ease-in-out;
+    }
+
+    &:active,
+    &:hover {
+      .title {
+        animation: wiggle 1.3s linear alternate-reverse infinite;
+      }
+      .author {
+        animation: wiggle 1s linear alternate infinite;
+      }
+    }
   }
 
   li + li {
-    margin-top: var(--space-m);
-  }
-
-  .author {
-    font-style: italic;
+    margin-top: var(--space-l);
   }
 }
 </style>

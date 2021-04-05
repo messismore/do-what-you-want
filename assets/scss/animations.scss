@@ -1,0 +1,16 @@
+@keyframes wiggle {
+  0% {
+    transform: skewX(0);
+  }
+  30% {
+    transform: skewX(0);
+  }
+
+  70% {
+    transform: skewX(-15deg);
+  }
+
+  100% {
+    transform: skewX(-15deg);
+  }
+}
