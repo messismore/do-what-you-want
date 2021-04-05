@@ -34,8 +34,8 @@
           die Organisationsstruktur des Semesters eingebunden.
         </p>
       </section>
-      <AppImage image="how/midterm-crit.jpg">WebEx</AppImage>
       <section>
+        <AppImage image="how/midterm-crit.jpg">WebEx</AppImage>
         <h3>1. Morgendliches Begrüßungsritual</h3>
         <p>
           Jede Sitzung begann mit einer Frage-Antwort-Runde, um alle
@@ -70,8 +70,8 @@
           Kästchenformat nebeneinander und konnten sich dazu- oder abschalten,
           Einzel- oder Gruppenchats starten und den eigenen Bildschirm teilen.
         </p>
+        <AppImage image="how/break.png"> Pausen sind wichtig </AppImage>
       </section>
-      <AppImage image="how/break.png"> Pausen sind wichtig </AppImage>
       <section>
         <h3>3. Arbeitsgruppen und -formate</h3>
         <p>
@@ -93,10 +93,10 @@
           konstanteren Druck für den Arbeitsprozess im Semester auf.
         </p>
       </section>
-      <AppImage image="how/miro.png">
-        Screenshot des gesamten Miroboards
-      </AppImage>
       <section>
+        <AppImage image="how/miro.png">
+          Screenshot des gesamten Miroboards
+        </AppImage>
         <h2>Das Miroboard</h2>
         <p>
           Das Miroboard hatte dann wohl die schwerste Aufgabe. Es musste
@@ -117,9 +117,11 @@
           auf dem Board wucherte irgendwann zu einem derartigen Ausmaß heran,
           dass es für so manchen Prozessor des eigenen Laptops zu viel wurde.
         </p>
+      </section>
+      <section>
         <p>
           Insgesamt zeigte sich, dass die brutale Übersetzung der Lehre ins
-          Digitale, eine Möglichkeit ist, sich innerhalb einer Gruppe zu helfen,
+          Digitale eine Möglichkeit ist, sich innerhalb einer Gruppe zu helfen,
           zu kritisieren und zu reflektieren. Sie erfordert allerdings mehr
           Aufwand an einigen Ecken.
         </p>

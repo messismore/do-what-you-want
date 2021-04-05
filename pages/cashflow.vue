@@ -41,6 +41,8 @@
           Finanzierungsmodelle, aber auch die damit einhergehenden Privilegien
           und prekären Situationen sichtbar gemacht werden.
         </p>
+      </section>
+      <section>
         <p>
           Der zweite Tag bot einen intensiven Austausch mit Gästen. Zu digitalen
           Kaffeetrinken wurden Dagmar Pelger, Daniel Behrens und
@@ -109,6 +111,8 @@
           Büro in Bewegung zu sein, nur Bewährtes darf bleiben- und wird ständig
           optimiert.
         </p>
+      </section>
+      <section>
         <p>
           Bei ihnen scheint das Thema Work-Life-Balance zu allem Überfluss
           größtenteils innerhalb von <em>Zuloark</em> stattfinden zu können.

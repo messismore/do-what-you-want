@@ -2,7 +2,7 @@
   <nav class="TheNav">
     <ul>
       <li v-for="(value, key) in links" :key="key.title">
-        <NuxtLink :to="key">
+        <NuxtLink :to="'/' + key">
           <div class="title">{{ value.title }}</div>
           <div class="author">{{ value.author }}</div>
         </NuxtLink>
@@ -26,16 +26,25 @@ export default {
           title: 'Terrapolis',
           author: 'Mascha Arnold und Jakob Köchert',
         },
-        ringbahn: { title: 'Walking the Ringbahn', author: 'Chloé Borreguero' },
+        ringbahn: {
+          title: 'Walking (the Ringbahn) as an Aesthetic Practice',
+          author: 'Chloé Borreguero',
+        },
         cycles: { title: 'Cycles', author: 'Felix Deiters' },
-        countryside: { title: 'Countryside', author: 'Ricarda Brunner' },
+        blumenthal: { title: 'Blumenthal', author: 'Ricarda Brunner' },
         atmosphären: {
           title: 'Zur Zerlegung von Atmosphären',
           author: 'Yvan Leroy',
         },
-        keller: { title: 'Kellerkonventionen', author: 'Tobias Michnik' },
-        recycling: { title: 'Recycling', author: 'Leander Nowack' },
-        baustelle: { title: 'Baustelle', author: 'Philine Rzadtki' },
+        keller: {
+          title: 'Gesellschaft der Nebenräume',
+          author: 'Tobias Michnik',
+        },
+        recycling: {
+          title: 'Von dem Häusern und dem Tagebau',
+          author: 'Leander Nowack',
+        },
+        baustelle: { title: 'Baustellenpraxis', author: 'Philine Rzadtki' },
       },
     }
   },

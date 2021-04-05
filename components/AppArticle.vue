@@ -32,8 +32,27 @@ export default {
   article {
     font-size: var(--step-0);
 
-    & > * + * {
+    & > * + *,
+    figure,
+    figure + * {
       margin-top: var(--space-l);
+    }
+
+    a,
+    em {
+      font-size: var(--step--1);
+    }
+
+    h2:not(:first-child) {
+      margin-top: var(--space-2xl);
+    }
+
+    h2:first-child {
+      margin-top: calc(var(--space-2xl) - var(--space-l));
+    }
+
+    h2 + * {
+      margin-top: var(--space-s);
     }
 
     h2,
@@ -44,28 +63,41 @@ export default {
       max-width: var(--space-7xl);
     }
 
-    section:nth-of-type(3n-1) p:first-child,
-    h3:first-child {
+    section:nth-of-type(3n-1) {
       // background-color: lime;
-      text-indent: 25%;
+
+      p:first-child,
+      h2 + p {
+        text-indent: 25%;
+      }
     }
 
-    section:nth-of-type(3n) p:first-child,
-    h3:first-child {
+    section:nth-of-type(3n) {
       // background-color: yellow;
-      text-indent: 50%;
+
+      p:first-child,
+      h2 + p {
+        text-indent: 50%;
+      }
     }
 
-    section:nth-of-type(3n-2) p:first-child,
-    h3:first-child {
+    section:nth-of-type(3n-2) {
       // background-color: blue;
-      text-indent: 75%;
+
+      p:first-child,
+      h2 + p {
+        text-indent: 75%;
+      }
     }
 
-    section:first-of-type p:first-child,
-    h3:first-child {
+    section:first-of-type {
       // background: mediumslateblue;
-      text-indent: unset;
+
+      p:first-child,
+      h3:first-child,
+      h2 + p {
+        text-indent: unset;
+      }
     }
   }
 
@@ -91,10 +123,6 @@ export default {
   h3 {
     font-family: var(--fontBody);
     font-weight: normal;
-  }
-
-  em {
-    font-size: var(--step--1);
   }
 }
 </style>

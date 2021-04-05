@@ -31,8 +31,8 @@ export default {}
   padding: var(--space-s);
 
   h1 {
-    font-size: var(--step-5);
-    line-height: var(--step-5);
+    font-size: var(--step-6);
+    line-height: var(--step-6);
     text-align: center;
     text-transform: uppercase;
   }
