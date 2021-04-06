@@ -24,7 +24,7 @@
       </div>
     </template>
     <template #main>
-      <AppBox image="skizze-knospen-cad.svg">
+      <AppBox image="/pantheismus/skizze-knospen-cad.svg">
         <p>
           Ich habe mich nach einer ganzen Weile dagegen entschieden ein Kloster
           zu entwerfen und statt- dessen dafür, mir etwas auszudenken, dass an
@@ -36,35 +36,37 @@
           andere Bewegung gibt, mit der man den Aussichtspunkt erreicht.
         </p>
       </AppBox>
-      <AppBox
+      <AppBox image="/pantheismus/kapsel-skizze.png"
         ><p>
           Ich finde man kann so einen Blick besonders genießen, wenn man, wie
           bei einer Wanderung, erst eine körperliche Anstrengung hinter sich
           bringt, und dann zur Ruhe kommen kann beim Anblick der Aussicht.
         </p>
       </AppBox>
-      <AppBox width="large" image="pantheismus/Gemälde.jpg"
+      <AppBox width="large" image="/pantheismus/Gemälde.jpg"
         ><p>
           Es gibt also sehr wahrscheinlich eine Abfolge von Veränderungen des
           körperlichen und geistigen Zustands. Von Caspar David Friedrich kennen
-          viele das Bild der „Wanderer über dem Nebelmeer“. Die Knospe soll ein
-          vergleichbares Erlebnis wie im Gemälde ermöglichen, obwohl man sich
-          mitten in der Stadt befindet.
+          viele das Bild der <em>Wanderer über dem Nebelmeer</em>. Die Knospe
+          soll ein vergleichbares Erlebnis wie im Gemälde ermöglichen, obwohl
+          man sich mitten in der Stadt befindet.
         </p>
       </AppBox>
-      <AppBox width="small" image="pantheismus/Genezareth-Kirche-1.jpg">
+      <AppBox width="small" image="/pantheismus/Genezareth-Kirche-1.jpg">
         <p>
           Erst besteigt man den Turm der Kirche. Das ist im Grunde bereits ein
-          Abenteuer für sich. Wenn man dann auf dem Dach angekommen ist, hat man
-          möglicherweise schon einmal den eben beschriebenen erhebenden
-          „pantheistischen Effekt“ durchleben können. In diesem Fall könnte man
-          meinen, man brauche die Knospe also nicht notwendigerweise.
+          Abenteuer für sich.
         </p>
       </AppBox>
-      <AppBox width="small" image="pantheismus/Genezareth-Kirche-2.jpg">
-        <p>Hier fehlt noch ein Text</p>
+      <AppBox width="small" image="/pantheismus/Genezareth-Kirche-2.jpg">
+        <p>
+          Wenn man dann auf dem Dach angekommen ist, hat man möglicherweise
+          schon einmal den eben beschriebenen erhebenden
+          <em>pantheistischen Effekt</em> durchleben können. In diesem Fall
+          könnte man meinen, man brauche die Knospe also nicht notwendigerweise.
+        </p>
       </AppBox>
-      <AppBox width="small" image="pantheismus/Genezareth-Kirche-3.jpg">
+      <AppBox width="small" image="/pantheismus/Genezareth-Kirche-3.jpg">
         <p>
           Sie entfaltet ihre gesamte Wirkung in der Tat am direktesten, wenn man
           von einem Ort ohne atemberaubende Aussicht einsteigt. Nun befinden wir
@@ -73,7 +75,7 @@
           von Stille umgeben sind.
         </p>
       </AppBox>
-      <AppBox image="pantheismus/Ansicht-mit-Turm-ausgefahren.png">
+      <AppBox image="/pantheismus/Ansicht-mit-Turm-ausgefahren.png">
         <p>
           Spezifisches Beispiel, ortsgebunden an die Genezarethkirche in
           Neukölln: Die Kirche ist besonders geeignet und gesprächsoffen für das
@@ -84,26 +86,30 @@
           Tempelhof rückgebaut worden.
         </p>
       </AppBox>
-      <AppBox width="large" image="pantheismus/Tribüne.jpg">
+      <AppBox width="large" image="/pantheismus/Tribüne.jpg">
         <p>
           Die Kegelförmige Tribüne eignet sich zum hinsetzen, und auch für
-          geführte Meditationseinheiten/Andachten, gemeinsames Singen,
+          geführte Meditationseinheiten / Andachten, gemeinsames Singen,
           Picknicks, oder auch zum Treffen von Freunden. Man kann sich dort mit
           sehr vielen Leuten verabreden und einen schönen Nachmittag verbringen,
           oder eben alleine hinaufsteigen. Da man auf der Tribüne jedoch selten
           wirklich ganz allein sein wird, halte ich es für begründet, ein
           Angebot zu bieten, mit der man sich dem Gewusel Neuköllns für eine
-          Pause komplett entziehen kann. Einfach abhauen in den Himmel und sich
-          von allem Lauten und Wuseligen frei machen.
-        </p></AppBox
-      >
-      <AppBox image="pantheismus/Knospe.png">Hier fehlt noch ein Text</AppBox>
-      <AppBox image="pantheismus/Vogelperspektive.png"
+          Pause komplett entziehen kann.
+        </p>
+      </AppBox>
+      <AppBox image="/pantheismus/Knospe.jpg">
+        <p>
+          Einfach abhauen in den Himmel und sich von allem Lauten und Wuseligen
+          frei machen.
+        </p>
+      </AppBox>
+      <AppBox image="/pantheismus/Vogelperspektive.jpg"
         ><p>
           Man fährt wie mit einem Tretboot in den Himmel und wenn man
           entscheidet, dass man hoch genug ist, kann man seinen Sitz von einer
           zurückgelehnten Position, wie bei einem großen Schreibtischsessel
-          aufrecht fahren lassen. Hierbei wird der in den Himmel gerich- tete
+          aufrecht fahren lassen. Hierbei wird der in den Himmel gerichtete
           Blick, durch die unten auftauchende Skyline (im wahrsten Sinne des
           Wortes) geerdet.
         </p>
@@ -112,13 +118,13 @@
           statt, um wie ein entschleunigender Zeitlupeneffekt zu wirken. Ich
           denke man könnte durch den Perspektivwechsel ein spürbar anderes
           Raumgefühl bekommen. Zudem macht es, zumindest für mich, einen großen
-          Unterschied, ob man die- se Erfahrung alleine oder in Gesellschaft
+          Unterschied, ob man diese Erfahrung alleine oder in Gesellschaft
           Bekannter oder auch fremder Personen macht. Deshalb bietet die Knospe
           auch nur einen einzigen Sitz im Inneren an.
         </p>
       </AppBox>
 
-      <AppBox width="small" image="pantheismus/Sessel.png"
+      <AppBox width="small" image="/pantheismus/Sessel.jpg"
         ><p>
           So soll gewährleistet werden, dass man sich möglichst unbeobachtet im
           Innenraum fühlt. Denn das Äußere der Knospe kann man schließlich von
@@ -126,7 +132,7 @@
           immer wieder, wenn auch langsam, bewegt.
         </p>
       </AppBox>
-      <AppBox width="large" image="pantheismus/Schnitt.png"
+      <AppBox width="large" image="/pantheismus/Schnitt.jpg"
         >Bedienungsanleitung:
         <ol>
           <li>Anmeldung online oder persönlich vor Ort</li>
