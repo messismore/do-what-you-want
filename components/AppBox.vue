@@ -79,6 +79,11 @@ export default {
     font-size: var(--step--2);
   }
 
+  em + ol {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
   img,
   picture,
   video {

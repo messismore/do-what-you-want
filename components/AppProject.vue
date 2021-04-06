@@ -39,6 +39,7 @@ export default {
   h1,
   h2 {
     text-align: center;
+    text-transform: uppercase;
     font-size: var(--step-2);
   }
 
