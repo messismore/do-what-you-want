@@ -32,7 +32,7 @@ export default {
         },
         cycles: { title: 'Cycles', author: 'Felix Deiters' },
         blumenthal: { title: 'Blumenthal', author: 'Ricarda Brunner' },
-        atmosphären: {
+        atmosphaeren: {
           title: 'Zur Zerlegung von Atmosphären',
           author: 'Yvan Leroy',
         },
