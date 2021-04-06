@@ -2,8 +2,8 @@
   <div class="AppBox" :style="styles">
     <a v-if="anchor" :name="anchor"></a>
     <nuxt-picture v-if="image" :src="image" v-bind="$attrs" />
-    <video v-if="video" v-bind="$attrs">
-      <source :src="video" />
+    <video v-if="video" v-bind="$attrs" preload="metadata">
+      <source :src="video" type="video/mp4" />
       Sorry, your browser doesn't appear to support embedded videos.
     </video>
     <div>{{ index }}</div>

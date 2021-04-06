@@ -25,7 +25,10 @@
       </div>
     </template>
     <template #main>
-      <AppBox width="medium" image="cycles/eagle-creek-fire-kristi-mccluer.jpg">
+      <AppBox
+        image="/cycles/eagle-creek-fire-kristi-mccluer.jpg"
+        width="medium"
+      >
         <p>
           It's been almost ten years since I started studying and working in
           architecture. This was to be my last studio before beginning work on
@@ -58,7 +61,7 @@
           >Kristi McCluer
         </a>
       </AppBox>
-      <AppBox anchor="scope" width="small" image="scope.svg">
+      <AppBox anchor="scope" width="small" image="/cycles/scope.svg">
         <p>
           Let's start with some words on scope. The mess we find ourselves in
           touches more than just the emission of greenhouse gases. The
@@ -111,7 +114,10 @@
           </li>
         </ol>
       </AppBox>
-      <AppBox width="large" image="50-years-after-The-Limits-to-Growth.svg">
+      <AppBox
+        image="/cycles/50-years-after-The-Limits-to-Growth.svg"
+        width="large"
+      >
         <p>
           Before we can dive into the aforementioned nitty-gritty, we'll need to
           lay some more groundwork.
@@ -161,7 +167,7 @@
           </li>
         </ul>
       </AppBox>
-      <AppBox width="medium" image="linear-extract.svg">
+      <AppBox width="medium" image="/cycles/linear-extract.svg">
         <p>
           Let's back up a little more. For too long, humans have relied on a
           linear economic model, one that is fundamentally
@@ -176,7 +182,7 @@
           >.
         </p>
       </AppBox>
-      <AppBox width="medium" image="circular-borrow.svg">
+      <AppBox width="medium" image="/cycles/circular-borrow.svg">
         <p>
           In contrast,
           <a
@@ -213,8 +219,8 @@
       </AppBox>
       <AppBox
         anchor="life-cycle-stages"
+        image="/cycles/life-cycle-stages.svg"
         width="large"
-        image="life-cycle-stages.svg"
       >
         <p>
           Life-cycle assessments are a methodology to assess and quantify the
@@ -241,8 +247,8 @@
       </AppBox>
       <AppBox
         anchor="flows"
+        image="/cycles/process-laminated-veneer-board.jpg"
         width="medium"
-        image="cycles/process-laminated-veneer-board.jpg"
       >
         <p>
           Life-cycle information on products is compiled into so-called
@@ -267,7 +273,14 @@
           <a href="https://www.oekobaudat.de/en.html">Ökobaudat</a>.
         </p>
       </AppBox>
-      <AppBox width="medium" video="EPD-1080.mp4" autoplay loop>
+      <AppBox
+        autoplay
+        loop
+        muted
+        playsinline
+        video="/cycles/EPD-1080.mp4"
+        width="medium"
+      >
         <p>
           <em>Ökobaudat's</em> <em>EPDs</em> necessarily cover a wide range of
           inputs and outputs. Unfortunately, this thoroughness also renders them
@@ -313,9 +326,9 @@
         </p>
       </AppBox>
       <AppBox
-        width="large"
-        image="an-understanding-for-the-replenishment-of-ecosystems.svg"
         anchor="an-understanding-for-the-replenishment-of-ecosystems"
+        image="/cycles/an-understanding-for-the-replenishment-of-ecosystems.svg"
+        width="large"
       >
         <p>
           A circular mode of production implies that we don't consume more than
@@ -341,7 +354,7 @@
           </li>
         </ol>
       </AppBox>
-      <AppBox width="medium" image="seasons-life-cycles.svg">
+      <AppBox width="medium" image="/cycles/seasons-life-cycles.svg">
         <p>
           From the moment we pick up a pencil, we make decisions. We draw on
           implicit knowledge, <em>intuition</em>. Early decisions, such as the
@@ -350,7 +363,7 @@
           we have to start.
         </p>
       </AppBox>
-      <AppBox width="medium" image="land-use-as-metric.svg"
+      <AppBox width="medium" image="/cycles/land-use-as-metric.svg"
         ><p>
           Architecture is inseparably linked with space. To think
           architectonically means to think spatially.
@@ -361,7 +374,7 @@
           as a metric to leverage our spatial intuition.
         </p>
       </AppBox>
-      <AppBox width="medium" image="cycles/brandenburgs-forests.png">
+      <AppBox width="medium" image="/cycles/brandenburgs-forests.png">
         <p>
           Such a metric is tied to the metabolism of a specific landscape. It is
           inherently local and specific. Our framework, therefore, requires that
@@ -375,7 +388,7 @@
           of its area.
         </p>
       </AppBox>
-      <AppBox width="large" image="mitigation-window.svg"
+      <AppBox width="large" image="/cycles/mitigation-window.svg"
         ><p>
           We can now relate the emissions caused by the production of an
           architectural element to the area of forest in Brandenburg that would
@@ -386,7 +399,7 @@
           given in football fields!)
         </p>
       </AppBox>
-      <AppBox width="medium" image="elements.svg">
+      <AppBox width="medium" image="/cycles/elements.svg">
         Let's do some modelling…
         <ul>
           <li>Columns</li>
@@ -398,27 +411,34 @@
           <li>Foundations</li>
         </ul>
       </AppBox>
-      <AppBox width="medium" image="cycles/screenshot-numbers.png">
+      <AppBox width="medium" image="/cycles/screenshot-numbers.png">
         <p>…and crunch some numbers.</p>
       </AppBox>
-      <AppBox width="medium" image="cycles/screenshot-oekobaudat-csv.png">
+      <AppBox width="medium" image="/cycles/screenshot-oekobaudat-csv.png">
         Spreadsheets grow big fast. Luckily, the
         <a href="https://www.oekobaudat.de/en.html">Ökobaudat</a> is made
         available to download.
       </AppBox>
-      <AppBox width="medium" image="cycles/bbLCA-IDE.png"
+      <AppBox width="medium" image="/cycles/bbLCA-IDE.png"
         >Let's bust out our trusty
         <a href="https://www.grasshopper3d.com">Grasshopper</a> and do some
         parsing.
       </AppBox>
-      <AppBox width="large" video="bbLCA-1080.mp4" autoplay loop>
+      <AppBox
+        autoplay
+        loop
+        muted
+        playsinline
+        video="/cycles/bbLCA-1080.mp4"
+        width="large"
+      >
         The result is an exploratory tool to intuitively assess and compare the
         environmental profile of architectural elements. I argue that in
         interacting with this tool, designers can develop new
         <em>intuitions</em>, implicit knowledge that is subconsciously recalled
         next time they pick up a pencil.
       </AppBox>
-      <AppBox width="large" image="cycles/bbLCA-element.png">
+      <AppBox width="large" image="/cycles/bbLCA-element.png">
         <p>
           The tool works by tallying the amount of each material that makes up a
           given element and retrieving the material's <em>GWP</em> from the
@@ -447,7 +467,7 @@
         </ul>
       </AppBox>
 
-      <AppBox width="large" image="production-window.svg"
+      <AppBox width="large" image="/cycles/production-window.svg"
         ><p>
           So far, we have only looked at the status quo. To consider, for
           example, the electric energy expended in the production of a material,
@@ -506,7 +526,7 @@
           concrete grows even bigger.
         </p>
       </AppBox>
-      <AppBox width="medium" image="cycles/screenshot-bbLCA-glulam-wall.png">
+      <AppBox width="medium" image="/cycles/screenshot-bbLCA-glulam-wall.png">
         <p>
           This work hypothesises a vector to aid the development of a new kind
           of material intuition. It is, however, important to consider the
@@ -532,7 +552,7 @@
         <p></p>
       </AppBox>
 
-      <AppBox width="large" image="cycles/cycles-relations.png"
+      <AppBox width="large" image="/cycles/cycles-relations.png"
         ><em>Appendix</em>
         <p>
           <em>LCAs</em> are a valuable tool. Architects fancy themselves
