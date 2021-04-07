@@ -31,7 +31,7 @@
       </div>
     </template>
     <template #main>
-      <AppBox class="prose" width="large">
+      <AppBox class="prose" image="/terrapolis/bark.jpg" width="large">
         <p>
           It was you,<br />
           who brought me into existence.
@@ -56,7 +56,7 @@
           It calms me to know, that life goes on.
         </p>
       </AppBox>
-      <AppBox class="prose" width="medium">
+      <AppBox class="prose" image="/terrapolis/moss-1.jpg" width="medium">
         <p>
           We can’t speak as we used to, <br />
           but your voice will remain present.
@@ -82,7 +82,7 @@
           I did not understand those melodies.
         </p>
       </AppBox>
-      <AppBox class="prose" width="large">
+      <AppBox class="prose" image="/terrapolis/fungus-1.jpg" width="large">
         <p>
           A time when I thought<br />
           I could exist separately from you;<br />
@@ -106,7 +106,7 @@
           that I will know what to do.
         </p>
       </AppBox>
-      <AppBox class="prose" width="medium">
+      <AppBox class="prose" image="/terrapolis/moss-2.jpg" width="medium">
         <p>
           To acknowledge this,<br />
           is to return to what I truly am.
@@ -127,7 +127,12 @@
           as you always were me.
         </p>
       </AppBox>
-      <AppBox width="large">
+      <AppBox
+        width="large"
+        video="/terrapolis/terrapolis-720.mp4"
+        controls
+        poster="/terrapolis/poster.jpg"
+      >
         <p>
           The future of contemporary graveyards is uncertain. As the demand for
           religious burials decreases, their gradual discontinuation leaves many
@@ -155,7 +160,7 @@
           human bodies. The proposal reconfigures the graveyard typology:
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/terrapolis/fungus-2.jpg" width="medium">
         <p>
           The convergence of compost burial grounds and permacultural gardening,
           gives rise to a space for soil-centred practices.
@@ -187,7 +192,7 @@
           space:
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/terrapolis/moss-3.jpg" width="medium">
         <p>
           Daycare centers and schools to foster multispecies, decolonized,
           posthuman education models and soil research and permaculture training
