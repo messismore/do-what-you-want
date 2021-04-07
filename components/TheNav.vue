@@ -24,7 +24,7 @@ export default {
         },
         terrapolis: {
           title: 'Terrapolis',
-          author: 'Mascha Arnold und Jakob Köchert',
+          author: 'Maria Arnold & Jakob Köchert',
         },
         ringbahn: {
           title: 'Walking (the Ringbahn) as an Aesthetic Practice',
