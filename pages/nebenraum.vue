@@ -28,7 +28,7 @@
       </div>
     </template>
     <template #main>
-      <AppBox width="medium">
+      <AppBox image="/nebenraum/nebenraum.jpg" width="medium">
         <p>
           Nebenräume sind keine vordergründigen Repräsentationsräume. Sie
           enthalten Verdecktes, Verborgenes, Ausgelagertes, aber sind zugleich
@@ -38,7 +38,7 @@
           und Aktivitäten, die anderswo keinen Platz finden (sollen).
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/nebenraum/truhe.jpg" width="small">
         <p>
           Nebenräume lassen sich nicht losgelöst von den Dingen betrachten.
           Exemplarisch hierzu drei historische Beispiele, die zwar nicht
@@ -48,7 +48,7 @@
           undifferenziert Platz finden.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/nebenraum/vorratskeller.jpg" width="small">
         <p>
           Vorratskeller: Ein natürlich-klimatisch konditionierter
           Aufbewahrungsraum für Lebensmittel, welcher im 20. Jhd. abgelöst wird
@@ -56,7 +56,7 @@
           den Kühlschrank.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/nebenraum/compactum-wardrobe.jpg" width="small">
         <p>
           Compactum Wardrobe: Ein Kleiderschrank von 1937 mit unzähligen
           kleineren Fächern, der als Ausdruck des kulturelles und
@@ -65,7 +65,7 @@
           Jahrhundert den Haushalt erreicht.
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/nebenraum/schnitte-1.svg" width="medium">
         <p>
           Das Berliner Mietshaus (hier exemplarisch: Baujahr 1906, mein eigener
           Wohnort) ist ein generischer Bautyp des 19. und 20. Jahrhunderts: Im
@@ -73,7 +73,7 @@
           Bauordnung.
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/nebenraum/schnitte-2.svg" width="medium">
         <p>
           Das Berliner Mietshaus hat einen Nebenraum, viel eher ein
           Nebenraumgefüge: der Keller. Preußische Kappendecken,
@@ -81,23 +81,24 @@
           städtischer Infrastruktur und häuslicher Infrastruktur.
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/nebenraum/kellerkonventionen.jpg" width="medium">
         <p>
           Während es für oben – z. B. die Fassade – eine Bauordnung gibt sowie
           einen Wunsch nach Repräsentation, bestehen für den Keller informelle
           Regeln der Gestaltung: Die Keller Konvention.
         </p>
       </AppBox>
-
-      <AppBox image="/nebenraum/halbzeug.jpg" width="small"></AppBox>
-      <AppBox image="/nebenraum/tür.jpg" width="small">
+      <AppBox image="/nebenraum/halbzeug.jpg" width="small">
         <p>
           Das formale Repertoire des Kellers umfasst dabei im Einklang mit der
           Keller Konvention verschiedene Elemente zur Abgrenzungen: Halbzeuge,
           Gitter, Paneele, Lochziegel.
         </p>
       </AppBox>
-      <AppBox image="/nebenraum/scharnier.jpg" width="small">
+      <AppBox image="/nebenraum/tür.jpg" width="small"></AppBox>
+      <AppBox image="/nebenraum/scharnier.jpg" width="small"></AppBox>
+      <AppBox image="/nebenraum/lochziegel.jpg" width="small"></AppBox>
+      <AppBox image="/nebenraum/studien-1.svg" width="medium">
         <p>
           Aus dem formalen Repertoire ergeben sich Grundelemente und Grundmaße:
           1. T-Profile, die einfach an die Höhentopographie des Kellers
@@ -107,14 +108,16 @@
           mit den T-Profile beliebig variiert werden: Zwang und Spiel.
         </p>
       </AppBox>
-      <AppBox width="medium">
+      <AppBox image="/nebenraum/studien-2.svg" width="medium">
         <p>
           Im Zwang und Spiel dieses Systems sind dabei neben rechten Winkeln
           vielfältige Freiformen und Verkleidungskombinationen möglich – hier
           durchexerziert als Fingerübung.
         </p>
       </AppBox>
-      <AppBox width="large">
+      <AppBox image="/nebenraum/neuordnung.jpg" width="medium"></AppBox>
+      <AppBox image="/nebenraum/raumprogramm.jpg" width="medium"></AppBox>
+      <AppBox image="/nebenraum/plan.svg" width="large">
         <p>
           Das neue Raumprogramm bildet sich im Einklang mit der Keller
           Konvention und dem formalen Repertoire aus. Die Organisation des
@@ -131,7 +134,7 @@
           Verhältnis rahmt.
         </p>
       </AppBox>
-      <AppBox image="/nebenraum/unantastbarkeit.jpg" width="small">
+      <AppBox image="/nebenraum/unantastbarkeit.jpg" width="medium">
         <p>
           <em>Raum der Unantastbarkeit.</em> Durchlaufen, kontrollieren, warten,
           abdrehen, reparieren, aufdrehen, Zugriff jederzeit. Der Arterien des
@@ -140,7 +143,7 @@
           verfügbar sind.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/nebenraum/zirkulation.jpg" width="small">
         <p>
           <em>Raum der Zirkulation, Raum der häufigen Frequentierung.</em> Das
           was man nicht mehr braucht, was in den kollektiven Hausrat übergeht,
@@ -149,7 +152,7 @@
           Schutzräume für Fahrräder und andere rollende Dinge.
         </p>
       </AppBox>
-      <AppBox>
+      <AppBox image="/nebenraum/sedimente.jpg" width="small">
         <p>
           <em>Raum der Sedimente.</em> Das was mehr oder weniger achtlos in den
           Keller gestellt wird. Das wovon man sich vorstellen könnte, dass man
@@ -157,7 +160,7 @@
           Zwischenwelt der Dinge.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/nebenraum/ersatz.jpg" width="medium">
         <p>
           <em>
             Raum für Ersatz und Ersetztes, Raum für bearbeitende Dinge, Raum der
@@ -166,15 +169,6 @@
           Einsortieren, durchsuchen, rausnehmen, überprüfen, zurechtschneiden,
           mitnehmen. Dinge und Handlungen, die zum Unterhalt des Hauses
           notwendig sind. Materielle Basis.
-        </p>
-      </AppBox>
-      <AppBox image="/nebenraum/kuriositäten.jpg" width="small">
-        <p>
-          <em>Raum für Kuriositäten.</em> Die Wunderkammer des Hauses, in dem
-          alle Bewohnende des Hauses ein Objekt stellen müssen. Ein
-          Sammelsurium. Das kollektiv eingerichtete Zimmer, das Bewusstsein des
-          Hauses. Tradition Berliner Mietshäuser seit Beginn des 21.
-          Jahrhunderts.
         </p>
       </AppBox>
       <AppBox image="/nebenraum/geschlossene-behältnisse.jpg" width="medium">
@@ -187,6 +181,15 @@
           geschlossenen Behältnisse geöffnet werden, in Erinnerungen geschwelgt
           wird, sortiert wird, die Zukunft der Dinge bestimmt wird: wieder hoch
           in die Wohnung, veräußert, oder verlagert in andere Räume des Kellers.
+        </p>
+      </AppBox>
+      <AppBox image="/nebenraum/kuriositäten.jpg" width="small">
+        <p>
+          <em>Raum für Kuriositäten.</em> Die Wunderkammer des Hauses, in dem
+          alle Bewohnende des Hauses ein Objekt stellen müssen. Ein
+          Sammelsurium. Das kollektiv eingerichtete Zimmer, das Bewusstsein des
+          Hauses. Tradition Berliner Mietshäuser seit Beginn des 21.
+          Jahrhunderts.
         </p>
       </AppBox>
     </template>
