@@ -63,6 +63,22 @@ export default {
       font-size: var(--step--1);
     }
 
+    h3 {
+      font-family: var(--fontBody);
+      font-size: var(--step-0);
+      font-weight: normal;
+    }
+
+    h3 + *,
+    ul {
+      margin-top: var(--space-xs);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
     p:not(:first-of-type) {
       text-indent: var(--space-l);
     }

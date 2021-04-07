@@ -36,7 +36,7 @@ export default {
           title: 'Zur Zerlegung von Atmosphären',
           author: 'Yvan Leroy',
         },
-        keller: {
+        nebenraum: {
           title: 'Gesellschaft der Nebenräume',
           author: 'Tobias Michnik',
         },
