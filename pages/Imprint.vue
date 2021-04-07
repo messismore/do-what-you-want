@@ -4,7 +4,7 @@
     <article class="imprint">
       <h1>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
-      <h2>Kontakt:</h2>
+      <h2>Kontakt</h2>
       <address>
         <p>Universität der Künste Berlin</p>
         <p>
@@ -15,6 +15,7 @@
           </a>
         </p>
         <p>Prof. Markus Bader</p>
+        <p>Vertreten durch Anna Kokalanova</p>
         <p>
           E-Mail:
           <a href="mailto:raumproduktion@raumlabor.net">
@@ -24,8 +25,6 @@
         <p>Telefon: <a href="tel:03031852297">030 / 31852297</a></p>
         <p>Anschrift: Hardenbergstraße 33, 10623 Berlin</p>
       </address>
-      <h2>Vertreten durch:</h2>
-      <p>Anna Kokalanova</p>
       <h2>Hinweis</h2>
       <p>
         Die Universität der Künste (UdK) Berlin übernimmt keine Gewähr für die
@@ -37,7 +36,7 @@
         unterbreiteten Angebote unterliegen der Verantwortung der jeweiligen
         Bereiche.
       </p>
-      <h2>Haftungsausschluss:</h2>
+      <h2>Haftungsausschluss</h2>
       <h3>Haftung für Inhalte</h3>
       <p>
         Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
