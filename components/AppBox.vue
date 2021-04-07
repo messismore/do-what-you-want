@@ -72,6 +72,11 @@ export default {
   max-width: min(calc(1.5 * var(--width)), 100vw);
   width: var(--width);
 
+  &.prose p {
+    text-indent: 0;
+    margin-top: var(--space-xs);
+  }
+
   a,
   em,
   sup {
