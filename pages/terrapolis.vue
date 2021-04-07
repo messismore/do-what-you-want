@@ -219,14 +219,3 @@
     </template>
   </AppProject>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style lang="scss">
-.AppBox.prose p {
-  text-indent: 0;
-  margin-top: var(--space-xs);
-}
-</style>
