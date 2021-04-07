@@ -82,16 +82,28 @@
           surrounding environment.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox
+        autoplay
+        loop
+        muted
+        video="/ringbahn/to-cross-576.mp4"
+        width="small"
+      >
         <p>
           Walking along the Ringbahn generates tensions. it is a political and
           cultural act. it is not just wandering, having a walk, strolling...
           this type of walking generates conflict.
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox
+        autoplay
+        loop
+        muted
+        video="/ringbahn/draw-a-circle-576.mp4"
+        width="small"
+      >
         <p>
-          ‘It was by walking that man began to construct the natu- ral landscape
+          ‘It was by walking that man began to construct the natural landscape
           of his surroundings. and in our own century we have formulated the
           categories for interpreting the urban landscapes that surround us by
           walking through them.’
@@ -101,13 +113,27 @@
           >
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox
+        autoplay
+        loop
+        muted
+        video="/ringbahn/measure-dump-576.mp4"
+        width="small"
+      >
         <p>
           The atlas aims to create a visual narrative of the landscape of the
           Ringbahn, understood as an ecology in itself, with a system of
           relations between different elements and patterns across the territory
           which can be associated, identified and catalogued.
         </p>
+      </AppBox>
+      <AppBox
+        autoplay
+        muted
+        loop
+        video="/ringbahn/to-get-lost-576.mp4"
+        width="small"
+      >
       </AppBox>
       <AppBox
         autoplay
@@ -199,7 +225,7 @@
           <em>R.Smithson (1967): A Tour of the Monuments of Passaic</em>
         </p>
       </AppBox>
-      <AppBox width="small">
+      <AppBox image="/ringbahn/backyard-1.jpg" width="small">
         <p>
           If we understand entropy as what we leave as unproductive in terms of
           energy balance, we will realize that what we call the margin
@@ -221,9 +247,14 @@
           noisy and undesirable constructions, infrastructures and objects.
         </p>
       </AppBox>
-      <AppBox width="small" image="/ringbahn/backyard-1.jpg"> </AppBox>
-      <AppBox width="small" image="/ringbahn/backyard-2.jpg"> </AppBox>
-      <AppBox class="prose" width="medium">
+      <AppBox
+        class="prose"
+        autoplay
+        loop
+        muted
+        video="/ringbahn/walk-a-line-576.mp4"
+        width="medium"
+      >
         <p>
           The content available on the digital archive of the Ringbahn aims to
           offer a framework and a set of resources for walking, exploring and
@@ -235,12 +266,12 @@
           redefined by other walkers.
         </p>
         <p>FOLLOW A LINE, START WALKING.</p>
-      </AppBox>
-      <AppBox width="large">
-        <a
-          href="https://urbaniterations.org/walking-the-ringbahn-as-an-aesthetic-practice/"
-          >UrbanIterations.org</a
-        >
+        <p>
+          <a
+            href="https://urbaniterations.org/walking-the-ringbahn-as-an-aesthetic-practice/"
+            >UrbanIterations.org</a
+          >
+        </p>
       </AppBox>
     </template>
   </AppProject>
