@@ -1,0 +1,7 @@
+[build]
+
+	publish = "dist/"
+	command = "npm run generate"
+	environment = {GIT_LFS_ENABLED = true, NODE_VERSION = 15}
+
+
