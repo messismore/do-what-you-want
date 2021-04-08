@@ -31,7 +31,10 @@ export default {
           author: 'Chloé Borreguero',
         },
         cycles: { title: 'Cycles', author: 'Felix Deiters' },
-        blumenthal: { title: 'Blumenthal', author: 'Ricarda Brunner' },
+        blumenthal: {
+          title: 'Blumenthal – 1Portrait',
+          author: 'Ricarda Johanna Schwarz',
+        },
         atmosphaeren: {
           title: 'Zur Zerlegung von Atmosphären',
           author: 'Yvan Leroy',
