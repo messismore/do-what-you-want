@@ -79,8 +79,12 @@ export default {
       padding: 0;
     }
 
-    p:not(:first-of-type) {
-      text-indent: var(--space-l);
+    p {
+      hyphens: auto;
+
+      &:not(:first-of-type) {
+        text-indent: var(--space-l);
+      }
     }
   }
 

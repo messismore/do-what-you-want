@@ -63,6 +63,10 @@ export default {
       margin-left: var(--space-m-l);
       max-width: var(--space-7xl);
     }
+
+    p {
+      hyphens: auto;
+    }
   }
 
   article,
