@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
-    "test": "node .github/setup.js"
+    "test": "node .github/setup.js; node .github/setup.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
