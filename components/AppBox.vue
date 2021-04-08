@@ -2,7 +2,11 @@
   <div class="AppBox" :style="styles">
     <a v-if="anchor" :name="anchor"></a>
     <nuxt-picture v-if="image" :src="image" v-bind="$attrs" />
-    <video v-if="video" v-bind="$attrs" preload="metadata">
+    <!--
+      We need to explicitly set "muted" here, for some reason
+      simply binding $attrs in not sufficient
+     -->
+    <video v-if="video" :muted="muted" v-bind="$attrs" preload="metadata">
       <source :src="video" type="video/mp4" />
       Sorry, your browser doesn't appear to support embedded videos.
     </video>
@@ -30,6 +34,11 @@ export default {
     },
     video: {
       type: String,
+      required: false,
+      default: null,
+    },
+    muted: {
+      type: Boolean,
       required: false,
       default: null,
     },
