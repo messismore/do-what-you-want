@@ -43,14 +43,6 @@ export default {
           title: 'Gesellschaft der Nebenräume',
           author: 'Tobias Michnik',
         },
-        recycling: {
-          title: 'Von dem Häusern und dem Tagebau',
-          author: 'Leander Nowack',
-        },
-        baustelle: {
-          title: 'Baustellen' + '\u{200b}' + 'praxis', // eslint-disable-line
-          author: 'Philine Rzadtki',
-        },
       },
     }
   },
